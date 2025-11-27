@@ -1,8 +1,12 @@
 {
 	"servers": {
-		"my-mcp-server-0284c403": {
+		"http-mcp-server-0284c403": {
 			"url": "http://localhost:8000/mcp",
 			"type": "http"
+		},
+		"stdio-mcp-server-1529d1b6": {
+			"type": "stdio",
+			"command": "./runStdio.sh"
 		}
 	},
 	"inputs": []
